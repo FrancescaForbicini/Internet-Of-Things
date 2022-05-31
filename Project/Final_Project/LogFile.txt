@@ -1,0 +1,519 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing mote channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel ChildTimer
+Activate debug message on channel ParentTimer
+Activate debug message on channel Bracelet
+Activate debug message on channel Pairing
+Activate debug message on channel Pairing Phase
+Activate debug message on channel TimerPairing
+Activate debug message on channel AMSend
+Activate debug message on channel OperationalMode
+Activate debug message on channel Receive
+Activate debug message on channel ChildSensor
+Creating node 0...
+>>>Will boot at time 0 [sec]
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 0 [sec]
+Creating node 3...
+>>>Will boot at time 0 [sec]
+Creating mote channels...
+>>>Setting mote channel from node  0  to node  1  with gain  -60.0  dBm
+>>>Setting mote channel from node  0  to node  2  with gain  -60.0  dBm
+>>>Setting mote channel from node  0  to node  3  with gain  -60.0  dBm
+>>>Setting mote channel from node  1  to node  0  with gain  -60.0  dBm
+>>>Setting mote channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting mote channel from node  1  to node  3  with gain  -60.0  dBm
+>>>Setting mote channel from node  2  to node  0  with gain  -60.0  dBm
+>>>Setting mote channel from node  2  to node  1  with gain  -60.0  dBm
+>>>Setting mote channel from node  2  to node  3  with gain  -60.0  dBm
+>>>Setting mote channel from node  3  to node  0  with gain  -60.0  dBm
+>>>Setting mote channel from node  3  to node  1  with gain  -60.0  dBm
+>>>Setting mote channel from node  3  to node  2  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (0): Application booted.
+DEBUG (3): Application booted.
+DEBUG (2): Application booted.
+DEBUG (1): Application booted.
+DEBUG (0): Bracelet Sensor device is ready
+DEBUG (0): Pairing phase started
+
+DEBUG (1): Bracelet Sensor device is ready
+DEBUG (1): Pairing phase started
+
+DEBUG (3): Bracelet Sensor device is ready
+DEBUG (3): Pairing phase started
+
+DEBUG (2): Bracelet Sensor device is ready
+DEBUG (2): Pairing phase started
+
+DEBUG (1): TimerPairing: timer fired at time 0:0:0.976562510
+
+DEBUG (1): Bracelet Sensor is sending pairing packet -> key = P3N0vLZMfz3i53vdrl7J
+
+DEBUG (3): TimerPairing: timer fired at time 0:0:0.976562510
+
+DEBUG (3): Bracelet Sensor is sending pairing packet -> key = dK2lZs3hqbAj88S10LqW
+
+DEBUG (0): TimerPairing: timer fired at time 0:0:0.976562510
+
+DEBUG (0): Bracelet Sensor is sending pairing packet -> key = P3N0vLZMfz3i53vdrl7J
+
+DEBUG (2): TimerPairing: timer fired at time 0:0:0.976562510
+
+DEBUG (2): Bracelet Sensor is sending pairing packet -> key = dK2lZs3hqbAj88S10LqW
+
+DEBUG (3): Message has been received from node 0 at time 0:0:0.978027345
+DEBUG (3): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (2): Message has been received from node 0 at time 0:0:0.978027345
+DEBUG (2): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (1): Message has been received from node 0 at time 0:0:0.978027345
+DEBUG (1): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (1): Message for the PAIRING PHASE --> Address: 0
+
+DEBUG (0): AMSend: Packet is sent
+DEBUG (3): Message has been received from node 2 at time 0:0:0.984405481
+DEBUG (3): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (3): Message for the PAIRING PHASE --> Address: 2
+
+DEBUG (1): Message has been received from node 2 at time 0:0:0.984405481
+DEBUG (1): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (0): Message has been received from node 2 at time 0:0:0.984405481
+DEBUG (0): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (2): AMSend: Packet is sent
+DEBUG (3): Message has been received from node 1 at time 0:0:0.985321003
+DEBUG (3): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (0): Message has been received from node 1 at time 0:0:0.985321003
+DEBUG (0): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (0): Message for the PAIRING PHASE --> Address: 1
+
+DEBUG (0): Bracelet Sensor: sending pairing ACK to node 1
+
+DEBUG (2): Message has been received from node 1 at time 0:0:0.985321003
+DEBUG (2): Payload -> type: 0, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (1): AMSend: Packet is sent
+DEBUG (1): Pairing FAILED-> ACK not received at time 0:0:0.985488849
+DEBUG (1): Bracelet Sensor: sending pairing ACK to node 0
+
+DEBUG (2): Message has been received from node 3 at time 0:0:0.986694286
+DEBUG (2): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (2): Message for the PAIRING PHASE --> Address: 3
+
+DEBUG (2): Bracelet Sensor: sending pairing ACK to node 3
+
+DEBUG (1): Message has been received from node 3 at time 0:0:0.986694286
+DEBUG (1): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (0): Message has been received from node 3 at time 0:0:0.986694286
+DEBUG (0): Payload -> type: 0, data: dK2lZs3hqbAj88S10LqW
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): Pairing FAILED-> ACK not received at time 0:0:0.986862132
+DEBUG (3): Bracelet Sensor: sending pairing ACK to node 2
+
+DEBUG (0): Message has been received from node 1 at time 0:0:0.990051200
+DEBUG (0): Payload -> type: 1, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (0): Message for PAIRING PHASE has been received
+
+DEBUG (1): AMSend: Packet is sent
+DEBUG (1): AMSend ACK received at time 0:0:0.990219046
+DEBUG (1): Pairing Phase -> pairing has been completed for node 0
+
+DEBUG (1): Child bracelet has been activated
+
+DEBUG (1): Message has been received from node 0 at time 0:0:0.991989055
+DEBUG (1): Payload -> type: 1, data: P3N0vLZMfz3i53vdrl7J
+DEBUG (1): Message for PAIRING PHASE has been received
+
+DEBUG (0): AMSend: Packet is sent
+DEBUG (0): AMSend ACK received at time 0:0:0.992156901
+DEBUG (0): Pairing Phase -> pairing has been completed for node 1
+
+DEBUG (0): Parent bracelet has been activated
+
+DEBUG (3): Message has been received from node 2 at time 0:0:0.994354154
+DEBUG (3): Payload -> type: 1, data: dK2lZs3hqbAj88S10LqW
+DEBUG (3): Message for PAIRING PHASE has been received
+
+DEBUG (2): AMSend: Packet is sent
+DEBUG (2): AMSend ACK received at time 0:0:0.994521999
+DEBUG (2): Pairing Phase -> pairing has been completed for node 3
+
+DEBUG (2): Parent bracelet has been activated
+
+DEBUG (2): Message has been received from node 3 at time 0:0:0.996749770
+DEBUG (2): Payload -> type: 1, data: dK2lZs3hqbAj88S10LqW
+DEBUG (2): Message for PAIRING PHASE has been received
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): AMSend ACK received at time 0:0:0.996917615
+DEBUG (3): Pairing Phase -> pairing has been completed for node 2
+
+DEBUG (3): Child bracelet has been activated
+
+DEBUG (1): ChildTimer: timer fired at time 0:0:10.754882822
+DEBUG (1): Child Status: STANDING
+DEBUG (1): Position X: 226, Y: 179
+DEBUG (1): Bracelet Sensor is sending INFO to node 0
+
+DEBUG (0): Message has been received from node 1 at time 0:0:10.759719840
+DEBUG (0): Payload -> type: 2, data: STANDING
+DEBUG (0): INFO Message received
+DEBUG (0): Position X: 226, Y: 179
+DEBUG (0): Child Status: STANDING
+
+
+DEBUG (1): AMSend: Packet is sent
+DEBUG (1): OperationalMode SUCCESS-> ACK received at time 0:0:10.759887686
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:10.761718760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 196, Y: 103
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:0:10.765884395
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 196, Y: 103
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:10.766052240
+
+DEBUG (1): ChildTimer: timer fired at time 0:0:20.520507822
+DEBUG (1): Child Status: RUNNING
+DEBUG (1): Position X: 5, Y: 144
+DEBUG (1): Bracelet Sensor is sending INFO to node 0
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:20.527343760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 10, Y: 32
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (0): Message has been received from node 1 at time 0:0:20.527725197
+DEBUG (0): Payload -> type: 2, data: RUNNING
+DEBUG (0): INFO Message received
+DEBUG (0): Position X: 5, Y: 144
+DEBUG (0): Child Status: RUNNING
+
+
+DEBUG (1): AMSend: Packet is sent
+DEBUG (1): OperationalMode SUCCESS-> ACK received at time 0:0:20.527893043
+
+DEBUG (2): Message has been received from node 3 at time 0:0:20.531677240
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 10, Y: 32
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:20.531845086
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:30.292968760
+DEBUG (3): Child Status: RUNNING
+DEBUG (3): Position X: 250, Y: 14
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:0:30.302795372
+DEBUG (2): Payload -> type: 2, data: RUNNING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 250, Y: 14
+DEBUG (2): Child Status: RUNNING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:30.302963218
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:40.058593760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 97, Y: 86
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:0:40.068511925
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 97, Y: 86
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:40.068679770
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:49.824218760
+DEBUG (3): Child Status: STANDING
+DEBUG (3): Position X: 136, Y: 204
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:0:49.828277584
+DEBUG (2): Payload -> type: 2, data: STANDING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 136, Y: 204
+DEBUG (2): Child Status: STANDING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:49.828445429
+
+DEBUG (3): ChildTimer: timer fired at time 0:0:59.589843760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 94, Y: 68
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:0:59.597244239
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 94, Y: 68
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:0:59.597412085
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:9.355468760
+DEBUG (3): Child Status: FALLING
+DEBUG (3): Position X: 80, Y: 189
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:9.360137932
+DEBUG (2): Payload -> type: 2, data: FALLING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 80, Y: 189
+DEBUG (2): Child Status: FALLING
+
+
+DEBUG (2): ALERT: FALLING
+DEBUG (2): Position of the child: X: 80, Y: 189
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:9.360305777
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:19.121093760
+DEBUG (0): ParentTimer: timer fired at time 0:1:19.121093760
+DEBUG (0): ALERT: MISSING
+DEBUG (0): Last location X: 5, Y: 144
+
+DEBUG (3): Child Status: RUNNING
+DEBUG (3): Position X: 182, Y: 23
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:19.127655011
+DEBUG (2): Payload -> type: 2, data: RUNNING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 182, Y: 23
+DEBUG (2): Child Status: RUNNING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:19.127822856
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:28.886718760
+DEBUG (3): Child Status: RUNNING
+DEBUG (3): Position X: 214, Y: 172
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:28.894134498
+DEBUG (2): Payload -> type: 2, data: RUNNING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 214, Y: 172
+DEBUG (2): Child Status: RUNNING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:28.894302343
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:38.652343760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 33, Y: 30
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:38.659622169
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 33, Y: 30
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:38.659790015
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:48.417968760
+DEBUG (3): Child Status: STANDING
+DEBUG (3): Position X: 75, Y: 33
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:48.421096803
+DEBUG (2): Payload -> type: 2, data: STANDING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 75, Y: 33
+DEBUG (2): Child Status: STANDING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:48.421264649
+
+DEBUG (3): ChildTimer: timer fired at time 0:1:58.183593760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 138, Y: 5
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:1:58.194580034
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 138, Y: 5
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:1:58.194747879
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:7.949218760
+DEBUG (3): Child Status: RUNNING
+DEBUG (3): Position X: 55, Y: 143
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:7.955718976
+DEBUG (2): Payload -> type: 2, data: RUNNING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 55, Y: 143
+DEBUG (2): Child Status: RUNNING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:7.955886821
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:17.714843760
+DEBUG (3): Child Status: STANDING
+DEBUG (3): Position X: 124, Y: 195
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:17.725707964
+DEBUG (2): Payload -> type: 2, data: STANDING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 124, Y: 195
+DEBUG (2): Child Status: STANDING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:17.725875810
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:27.480468760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 35, Y: 182
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:27.490753133
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 35, Y: 182
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:27.490920979
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:37.246093760
+DEBUG (3): Child Status: STANDING
+DEBUG (3): Position X: 50, Y: 47
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:37.257614088
+DEBUG (2): Payload -> type: 2, data: STANDING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 50, Y: 47
+DEBUG (2): Child Status: STANDING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:37.257781934
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:47.011718760
+DEBUG (3): Child Status: RUNNING
+DEBUG (3): Position X: 213, Y: 231
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:47.022369342
+DEBUG (2): Payload -> type: 2, data: RUNNING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 213, Y: 231
+DEBUG (2): Child Status: RUNNING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:47.022537188
+
+DEBUG (3): ChildTimer: timer fired at time 0:2:56.777343760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 16, Y: 225
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:2:56.783233628
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 16, Y: 225
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:2:56.783401473
+
+DEBUG (3): ChildTimer: timer fired at time 0:3:6.542968760
+DEBUG (3): Child Status: WALKING
+DEBUG (3): Position X: 136, Y: 113
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:3:6.548110951
+DEBUG (2): Payload -> type: 2, data: WALKING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 136, Y: 113
+DEBUG (2): Child Status: WALKING
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:3:6.548278797
+
+DEBUG (3): ChildTimer: timer fired at time 0:3:16.308593760
+DEBUG (3): Child Status: FALLING
+DEBUG (3): Position X: 107, Y: 156
+DEBUG (3): Bracelet Sensor is sending INFO to node 2
+
+DEBUG (2): Message has been received from node 3 at time 0:3:16.320190382
+DEBUG (2): Payload -> type: 2, data: FALLING
+DEBUG (2): INFO Message received
+DEBUG (2): Position X: 107, Y: 156
+DEBUG (2): Child Status: FALLING
+
+
+DEBUG (2): ALERT: FALLING
+DEBUG (2): Position of the child: X: 107, Y: 156
+
+
+DEBUG (3): AMSend: Packet is sent
+DEBUG (3): OperationalMode SUCCESS-> ACK received at time 0:3:16.320358227
+
+
+
+
+Simulation finished!
+
