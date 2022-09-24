@@ -1,5 +1,5 @@
 # Internet Of Things
-Me and my collegue attended the course "Internet of Things" at Politecnico of Milan. 
+Me and my colleague attended the course "Internet of Things" at Politecnico of Milan. 
 The course provided the basics on the four major building blocks of the Internet of Things: the reference hardware, the communication technologies, the management 
 platforms and the data storage/processing solutions. The course started off by overviewing the most common hardware components of sensor nodes, and will then moved to 
 addressing the challenges which had to be faced to interconnect and manage such tiny devices. In this field, low power short rannge and long range communication 
