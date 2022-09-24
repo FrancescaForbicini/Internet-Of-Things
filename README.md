@@ -5,9 +5,13 @@ platforms and the data storage/processing solutions. The course started off by o
 addressing the challenges which had to be faced to interconnect and manage such tiny devices. In this field, low power short rannge and long range communication 
 technologies were reviewed. Finally, the course described the main features and requirements of management platform commonly used to orchestrate IoT systems. 
 In practice we did four challenges using 
+
   1.Wireshark to understand the attributes of packets that were in the network 
+  
   2.Generate a message from a file CSV to be sent in my ThingSpeak channel thourgh Node-Red using MQTT 
+  
   3.Sending message from a mote to my ThingSpeak channel using MQTT 
+  
   4.Simulation of an application with two motes that interact with each other, where the first mote periodicallu requestes the second one which will 
     answer after a certain amount of time.
 
